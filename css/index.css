@@ -102,10 +102,13 @@ img{
   background: url('../images/music_on.png') no-repeat 0 0;
   -webkit-animation: rotating 1.2s linear infinite;
   animation: rotating 1.2s linear infinite;
+  animation-play-state:running;
   -webkit-animation-play-state:running;
 }
 .off{
   background: url('../images/music_off.png') no-repeat 0 0;
+  animation-play-state:paused;
+  -webkit-animation-play-state:paused;
 }
 /*音乐按钮动画*/
 @-webkit-keyframes rotating {
